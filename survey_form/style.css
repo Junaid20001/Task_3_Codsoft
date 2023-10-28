@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+
+.mainDiv {
+    margin: auto;
+    display: flex;
+    width: 830px;
+    background-color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h1 {
+    color: #87C6EB;
+    font-size: 24px;
+}
+
+.formDiv {
+    background-color: #87C6EB;
+    padding: 20px;
+    border-radius: 0 0 15px 15px;
+}
+
+.rowDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.allLabel {
+    width: 250px;
+    height: 30px;
+    background-color: #ccc;
+    padding: 5px;
+}
+
+input, select, textarea {
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.label {
+    color: white;
+    margin-left: 10px;
+    width: 150px;
+}
+.label_address {
+    margin-left: 50px;
+}
+
+span {
+    color: white;
+    margin-left: 10px;
+}
+
+th, td {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.allInput {
+    margin-left: 50px;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #181758;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 70px;
+    height: 47px;
+}
+
+#btn_img{
+    width: 60px;
+    height: 55px;
+}
